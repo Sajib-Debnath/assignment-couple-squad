@@ -9,7 +9,7 @@ const Headers = () => {
             <li className='mx-3'><Link to='/posts'>Posts</Link></li>
         </>
     return (
-        <div className="navbar bg-base-300 mb-7 rounded-b-xl">
+        <div className="navbar bg-base-300 mb-7 rounded-b-md">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -26,36 +26,7 @@ const Headers = () => {
                     {menuItems}
                 </ul>
             </div>
-            {/* <div className="navbar-end">
-                <Link className="btn">Button</Link>
-            </div> */}
         </div>
-
-        // <div>
-        //     <div className="navbar bg-base-100">
-        //         <div className="flex-1">
-        //             <Link className="btn btn-ghost normal-case text-xl">Couple Squad</Link>
-        //         </div>
-        //         <div className="flex-none">
-        //             <ul className="menu menu-horizontal px-1">
-        //                 <li className='mx-3'><Link to='/'>Home</Link></li>
-        //                 <li className='mx-3'><Link to='/users'>Users</Link></li>
-        //                 <li className='mx-3'><Link to='/posts'>Posts</Link></li>
-        //                 {/* <li>
-        //                     <details>
-        //                         <summary>
-        //                             Parent
-        //                         </summary>
-        //                         <ul className="p-2 bg-base-100">
-        //                             <li><Link>Link 1</Link></li>
-        //                             <li><Link>Link 2</Link></li>
-        //                         </ul>
-        //                     </details>
-        //                 </li> */}
-        //             </ul>
-        //         </div>
-        //     </div>
-        // </div>
     );
 };
 
