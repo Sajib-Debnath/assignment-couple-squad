@@ -1,12 +1,28 @@
-# Getting Started with Create React App
+# This assessment project for Couple Squad
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Live Link](https://couple-squad.netlify.app/).
 
-## Available Scripts
 
-In the project directory, you can run:
+## Dependencies and Framework
 
-### `npm start`
+* Tailwind CSS
+* Daisy UI
+* React Router Dom
+* React Query(Tan Stack)
+* React Hot Toast
+
+## To run this project
+ * Clone this project
+ * Go to the root directory
+ * Command to install all package `npm install`
+ * Command to run this project `npm start`
+
+
+### This project is made by Sajib Debnath
+[LinkedIn](linkein.com/in/sajib-debnath)
+[Mail](linkein.com/in/sajib-debnath)
+
+<!-- ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -67,4 +83,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
