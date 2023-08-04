@@ -19,8 +19,8 @@
 
 
 ### This project is made by Sajib Debnath
-[LinkedIn](linkein.com/in/sajib-debnath)
-[Mail](linkein.com/in/sajib-debnath)
+[LinkedIn](linkein.com/in/sajib-debnath) \
+[Mail](linkein.com/in/sajib-debnath) \
 
 <!-- ### `npm start`
 
