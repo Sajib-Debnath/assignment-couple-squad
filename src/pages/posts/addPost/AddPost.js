@@ -3,7 +3,7 @@ import { toast } from 'react-hot-toast';
 
 const AddPost = ({ setIsSubmitAble, isSubmitAble, refetch }) => {
 
-    // const [post, setPost] = useState(null)
+   
 
     const handelAddUser = event => {
         event.preventDefault();
@@ -16,7 +16,6 @@ const AddPost = ({ setIsSubmitAble, isSubmitAble, refetch }) => {
             description
         }
         setIsSubmitAble(false)
-        console.log(newPost)
 
         fetch('https://64cb8f7f700d50e3c7061cf4.mockapi.io/api/posts', {
             method: "POST",
@@ -65,15 +64,10 @@ const AddPost = ({ setIsSubmitAble, isSubmitAble, refetch }) => {
                         </label>
 
                         <label className="block mb-8">
-                            <input type="submit" className='btn w-full' value="Submit" />
+                            <input type="submit" className='btn btn-primary w-full' value="Submit" />
                         </label>
 
-
                     </form>
-
-                    {/* <div classNameName="modal-action">
-                        <label htmlFor="my_modal_6" className="btn">Close!</label>
-                    </div> */}
                 </div>
             </div>
         </>

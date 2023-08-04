@@ -26,13 +26,13 @@ const Posts = () => {
     return (
         <div className=''>
             <div className='w-full'>
-                <label onClick={() => { setIsSubmitAble(true) }} htmlFor="my_modal_6" className="btn mb-5 p-5 grid justify-items-center bg-slate-500 w-1/6">Add Post</label>
+                <label onClick={() => { setIsSubmitAble(true) }} htmlFor="my_modal_6" className="btn btn-primary mb-5 p-5 grid justify-items-center bg-slate-500 text-white w-1/6">Add Post</label>
             </div>
 
             <div className='grid lg:grid-cols-3 grid-cols-1 gap-10'>
                 {
                     posts.map(postItem =>
-                        <div className="card w-96 bg-base-100 shadow-xl my-5">
+                        <div key={postItem.id} className="card w-96 bg-base-100 shadow-xl my-5">
                             <figure><img src={postItem.cover} alt="Shoes" /></figure>
                             <div className="card-body">
                                 <h2 className="card-title">{postItem?.title.slice(0, 20) + ' ...'}</h2>

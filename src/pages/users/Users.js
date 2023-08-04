@@ -6,7 +6,7 @@ import Loading from '../../components/Loading';
 
 const Users = () => {
 
-    //fetch 
+    //fetching users data 
     const { data: users = [], isLoading } = useQuery({
         queryKey: ['users'],
         queryFn: async () => {
@@ -23,9 +23,9 @@ const Users = () => {
 
     return (
         <div>
-            <div className="overflow-x-auto">
+            <div className="lg:overflow-x-auto">
                 <table className="table">
-                    <thead>
+                    <thead className=''>
                         <tr>
                             <th>Name</th>
                             <th>Email</th>
@@ -38,8 +38,7 @@ const Users = () => {
                     {
                         users.map((user) =>
                             <tbody key={user.id}>
-                                <tr>
-
+                                <tr className=''>
                                     <td>
                                         <Link to={`/users/${user.id}`}>
                                             <div className="flex items-center space-x-3">
@@ -56,7 +55,6 @@ const Users = () => {
                                             </div>
                                         </Link>
                                     </td>
-
                                     <td>
                                         {user.email}
                                         <br />
@@ -74,6 +72,8 @@ const Users = () => {
                             </tbody >
                         )
                     }
+
+
                 </table>
             </div>
         </div >
